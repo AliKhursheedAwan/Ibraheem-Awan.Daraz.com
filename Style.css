@@ -1,0 +1,652 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+p{
+        font-size: 1.6rem;
+}
+
+html{
+        font-size: 62.25%;
+}
+
+
+ul li{
+        list-style: none;
+}
+
+body{
+        background-color: white;
+        font-family: arial, Arial, Helvetica, sans-serif;
+}
+
+.first-section{
+        position: relative;
+        background-color:  #ff0000;
+
+}
+
+.main-head{
+        margin-right: 4rem;
+}
+
+a{
+        font-weight: 500;
+        text-decoration: none;
+        color: #f4f4f4;
+}
+
+a:hover{
+        color: rgba(245, 222, 179, 0.879);
+}
+
+ul a{
+        float: right;
+        /* border: 3px solid green; */
+        padding: 0.9rem;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+}
+
+.first-section::after{
+        content: '';
+        display: block;
+        clear: both;
+}
+
+.logo{
+        width: 18rem;
+        height: 10rem;
+        padding-left: 5rem;
+        padding-top: 1.2rem;
+}
+
+.search-box{
+        text-align: center;
+        padding: 0;
+        position: absolute;
+        left: 22%;
+        top: 39%;
+        outline: none;
+}
+
+input[type = search]{
+        outline: none;
+        width: 70rem;
+        height: 4.8rem;
+}
+
+input[type = search]:focus{
+        border: 2px groove darkblue;
+        padding: 2rem;
+}
+
+.fa-search{
+        color: red;
+        font-size: 2rem;
+        text-align: center;
+        width: 5.4rem;
+        height: 5rem;
+        margin-bottom: 0;
+        padding-top: 0.8rem;
+        position: absolute;
+        left: 73%;
+        top: 39%;
+        display: inline-block;
+        background-color:#fca6a6;
+        
+}
+
+.fa-shopping-cart{
+        font-size: 2.4rem;
+        text-align: center;
+        width: 75rem;
+        height: 5rem;
+        padding: 0;
+        position: absolute;
+        left: 53.5%;
+        top: 50%;
+        outline: none;
+        color: white;
+}
+
+.fa-shopping-cart:hover{
+        color: black;
+}
+
+.img-section{
+        position: relative;
+}
+
+.ss{
+
+        margin-bottom: 16rem;
+        height: 22rem;
+        margin-left: 3rem;
+}
+
+.rr{
+        position: absolute;
+        left: 78%;
+        top: 62%;
+        width: 14rem;
+}
+
+.app{
+        width: 10rem;
+        position: absolute;
+        top: 65%;
+        left: 90%;
+}
+
+.gg{
+        width: 8rem;
+        position: absolute;
+        /* left: 70%; */
+        top: 82%;
+        left: 91%;
+}
+
+.content{
+        background-color: #f4f4f4;
+        padding: 0.8rem;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+}
+
+.category{
+        margin-left: 3rem;
+}
+
+.fa-angle-down{
+        position: absolute;
+        left: 10%;
+        top: 19.5%;
+
+}
+
+.fa-angle-right{
+        position:absolute;
+        top: 55%;
+        left: 73.5%;
+        color: lightblue;
+        font-size: 0.3rem;
+        padding: 0.5rem;
+}
+
+.fa-angle-right:hover{
+        font-size: 1.4rem;
+        color: #f4f4f4;
+        background-color: lightslategrey;
+        border-radius: 28rem;
+        padding: 0.3rem;
+
+}
+
+.fa-angle-left{
+        position:absolute;
+        top: 53%;
+        right: 96.5%;
+        font-size: 0.3rem;
+        padding-bottom: 0.5rem;
+        color: lightblue;
+
+}
+
+.fa-angle-left:hover{
+        font-size: 1.4rem;
+        color: #f4f4f4;
+        background-color: lightslategrey;
+        border-radius: 28rem;
+        padding: 0.3rem;
+
+
+}
+
+
+
+                /* ############  shop section  ############# */
+
+               
+.boxs{
+
+   
+        border: 2px solid #f4f4f4;
+        height: 400px;
+        width: 16%;
+        background-color: white;
+        justify-content: space-between;
+        padding: 5px;
+        flex-direction: column;
+        /* margin-bottom: 30x; */
+        margin-top: 40px;
+        display: flex;
+        /* border: 2px solid red; */
+        /* margin-left: 12px; */
+        
+}
+
+
+
+.img-box:hover{
+        cursor: pointer;
+        background-color: #f4f4f4;
+        box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.731);
+}
+
+
+.shop-section{
+        display: flex;
+        background-color: #f4f4f4;
+        /* gap: 16px; */
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+}
+
+.img-box{
+        padding: 0.2rem;
+        width: 19rem;
+        height: 22rem;
+
+}
+
+.star-icon {
+        display: inline-block;
+        margin-right: 2px;
+        font-size: 15px; /* Adjust font size if needed */
+        color: rgb(219, 201, 97); /* Star color */
+        vertical-align: middle; /* Align stars in the middle */
+    }
+
+.cart-p{
+        font-size: 1.4rem;
+}
+
+.rate{
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-left: 0.5rem;
+}    
+
+.cut-rate{
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-left: 0.5rem;
+}
+
+
+.red{
+        color: red;
+}
+
+.see{
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.6rem;
+        color: red;
+
+}
+
+.see:hover{
+        color: darkslateblue;
+
+}
+
+
+/* .shop-section{
+        display: flex;
+        background-color: #f4f4f4;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 16px;
+        
+} */
+
+/* .shop-section{
+
+        background-color: #e3e6e7;
+        display: flex;
+        justify-content: space-evenly;
+}
+
+
+.box{
+        border-radius: 0.2rem;
+        margin-top: 3rem;
+        background-color: white;
+        color: black;
+        height: 24.5rem;
+        width: 19%;
+        padding: 8px 8px;
+}
+
+.seemore{
+        color: red;
+        margin-top: 0.3rem;
+        text-align: center;
+}
+
+.seemore:hover{
+        color: darkviolet;
+}
+
+
+
+.box-img{
+        margin-bottom: 1rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 14.5rem;
+       
+}
+
+.box-content{
+        margin-left: 0.2rem;
+        margin-right: 0.2rem ;
+}
+
+.red{
+        color: red;
+}
+
+.rate{
+        text-transform: uppercase;
+        margin-top: 0.4rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+}
+
+.cut-rate{
+        font-weight: 400;
+}
+
+.box .box-content:hover{
+        cursor: pointer;
+        background-color: #f4f4f4;
+        box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.731);
+}
+
+.shop{
+        margin-bottom: 10rem;
+}
+
+.fa-star{
+        color: darkgoldenrod;
+        font-size: 0.8rem;
+}
+
+.star{
+        display: inline-block;
+        font-size: 0.8rem;
+} */
+
+/* .star::before{
+        content: '*';
+        color: red;
+        font-size: 2rem;
+} */
+
+
+.link a{
+        width: 28rem;
+        display: inline-block;
+        text-align: center;
+        margin-top: 12rem;
+        padding: 0.8rem 0.8rem;
+        font-weight: 600;
+        margin-left: 44rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 2px solid black;
+        font-size: 1.6rem;
+        color: darkblue;
+}
+
+.link a:hover{
+        background-color: #f4f4f4;
+        color: red;
+}
+
+
+.box-wrapper{
+        text-align: center;
+        background-color: #f4f4f4;
+        display: flex;
+        padding: 5rem 2rem;
+        margin: 12rem 2rem;
+}
+
+.box-1{
+        width: 95%;
+        background-color: #f4f4f4;
+        text-align: left;
+        margin-left: 6rem;
+        
+}
+
+.box-2{
+        width: 95%;
+        background-color: #f4f4f4;
+        text-align: left;
+        margin-left: 4rem;
+        
+}
+
+.box-3{
+        width: 95%;
+        text-align: left;
+        background-color: #f4f4f4;
+        margin-left: 6rem;
+        
+}
+
+.box-5{
+        width: 95%;
+        text-align: left;
+        background-color: #f4f4f4;
+        font-size: 5rem;
+
+}
+
+.google{
+        font-size: 2rem;
+        display: block;
+        margin-bottom: 4rem;
+        background-color: #f4f4f4;
+        width: 6rem;
+}
+
+
+/* .box-flot{
+        margin-bottom: 5rem;
+        background-color: #f4f4f4;
+        display: flex;
+        margin-left: 2rem;
+        margin-right: 2rem;
+} */
+
+.container-float {
+        margin: 10rem 1.5rem 8rem 1.5rem;
+        background-color: #f4f4f4;
+        text-align: left;
+        display: flex;
+     
+
+
+}
+
+
+.box11{
+        background-color: #f4f4f4;
+        margin: 6rem 6rem;
+}
+
+
+.box12{
+        background-color: #f4f4f4;
+        margin: 6rem 4rem;
+}
+
+.box13{
+        background-color: #f4f4f4;
+        margin: 6rem 6rem;
+}
+
+.box14{
+        background-color: #f4f4f4;
+        margin: 6rem 4rem;
+}
+
+.box h2{
+        font-size: 2rem;
+        text-transform: capitalize;
+        margin-bottom: 3rem;
+        font-weight: bold;
+        text-decoration: underline;
+        color: darkgray;
+}
+
+.box h2::before{
+        color: darkblue;
+        font-size: 3rem;
+        font-weight: bold;
+        content: '*';
+        display: block;
+        clear: both;
+}
+
+
+        /* ##############  footer  ############## */
+
+.footer{
+        float: left;
+        margin-left: 5rem;
+        margin-top: 5rem;
+        margin-bottom: 8rem;
+}
+
+.country img{
+        width: 6rem;
+}
+
+.country-content{
+        word-spacing: 0.4rem;
+        letter-spacing: 0.3rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        font-size: 1.6rem;
+}
+
+.footer span{
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        font-weight: 200;
+        color: darkgrey;
+}
+
+.copy-right{
+        font-weight: 300;
+        margin-left: 10rem;
+        text-transform: capitalize;
+}
+
+.country span:hover{
+        text-decoration: underline;
+        cursor: pointer;
+}
+
+::selection{
+        background-color: lightblue;
+        color: rebeccapurple;
+}
+
+
+                /* ##############  cash section  ################ */
+
+.cash img{
+        width: 5rem;
+}
+
+.method{
+        margin-top: 10rem;
+        margin-left: 8rem;
+        font-weight: 500;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+}
+
+.seal{
+        margin-left: 6rem;
+        margin-bottom: 0.4rem;
+}
+
+.visa{
+        /* border: 1px solid #f4f4f4; */
+        margin-bottom: 0.4rem;
+        margin-left: 1.5rem;
+
+}
+
+.moster{
+        width: 4.3rem;
+        margin-left: 1.5rem;
+        
+}
+
+.easy{
+        margin-bottom: 0.4rem;
+        margin-left: 1.5rem;
+}
+
+
+
+.jazz{
+        margin-left: 0.8rem;
+}
+.wallet{
+        margin-left: 0.8rem;
+}
+
+.cash-next img{
+        width: 5.5rem;
+        margin-left: 3rem;
+}
+
+.union{
+        margin-top: 1.5rem;
+        height: 3rem;
+
+}
+
+.lion{
+        width: 3rem;
+        height: 3rem;
+}
+     
+
+.last{
+        margin-left: 0.5rem;
+}
+
+      
+.float-h3{
+        display: inline;
+        margin-left: 10rem;
+}
+
+
+.float img{
+        margin-left: 9rem;
+        width: 5rem;
+}
+
+
+
+
+
+/* Media Query  */
+
